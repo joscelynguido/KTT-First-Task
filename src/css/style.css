@@ -1,0 +1,71 @@
+/*CSS3*/
+.content
+{
+    margin: 0 auto;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navegation
+{
+    background: #A77C91;
+    width: 20%;
+    max-width: 10%;
+    min-width: 20%;
+    position: absolute;
+    height: 100%;
+    
+}
+.navegation ul
+{
+    padding: 40px;    
+    list-style:none;
+    text-align: center;
+    
+}
+
+.imagecircular
+{
+    border-radius: 60%;
+    width: 60%;
+    margin: 30px 50px 10px;
+
+}
+
+.header
+{
+    
+    width: 80%;
+    min-width: auto;
+    background-image: url("/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:right;
+    padding: 60px;
+
+    
+}
+
+.container
+{
+    background: #FFFAFA;
+    width: 80%;
+    min-width: auto;
+    float:right;
+}
+
+ .menu-option
+ {
+    padding: 10px 10px;    
+    
+
+}
+.menu-option a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.menu-option a:hover
+{
+    color: #473048;
+}
