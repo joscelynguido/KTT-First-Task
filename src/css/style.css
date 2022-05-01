@@ -3,7 +3,7 @@
 {
     margin: 0 auto;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navegation
 {
@@ -13,6 +13,7 @@
     min-width: 20%;
     position: absolute;
     height: 100%;
+    border-radius: 0.5em;
     
 }
 .navegation ul
@@ -40,17 +41,56 @@
     background-repeat: no-repeat;
     background-size: cover;
     float:right;
-    padding: 60px;
+    padding: 50px;
+    border-radius: 0.5em;
 
     
 }
 
 .container
 {
-    background: #FFFAFA;
+    padding-top: 50px;
     width: 80%;
     min-width: auto;
     float:right;
+    
+}
+
+.username
+{
+
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #52222B;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+
+.card
+{
+    background: #FAF3F8;
+    min-height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    color: #52222B;
+    border: 0.1em solid #680F4F;
+   
+
 }
 
  .menu-option
