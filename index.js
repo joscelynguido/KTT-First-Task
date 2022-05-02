@@ -4,7 +4,7 @@ const path = require('path');
 
 app.use(express.static(__dirname + "/src"));
 
-app.set("port", 3000);
+app.set("port", 5000);
 
 app.get("/",(req, res) => {
     res.sendFile(path.join(__dirname, 'src/views/index.html'));

@@ -6,24 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" href="/css/style.css" rel="stylesheet">
     <title>KTT-First-Task</title>
-    <script>
-        const userAction = async () => {
-          const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10&offset=90');
-          const pokemons = await response.json(); 
-          for (let index = 0; index < pokemons.results.length; index++) {
-              let mainSection = document.getElementById("main");
-              let div = document.createElement("div")
-              let p = document.createElement("p")
-              const pokemon = pokemons.results[index];
-              div.setAttribute('class', 'card');
-              p.append(pokemon.name);
-              div.append(p);
-              mainSection.append(div);             
-          }
-          
-      }
-      userAction();
-    </script>
 </head>
 <body>
     <div class="content">
@@ -31,14 +13,14 @@
         <nav class="navegation" >
             <img class="imagecircular" src="/img/joscelyn.png"  />
             <ul>
-                <li class="menu-option"><a href="">Inicio</a></li>
+                <li class="menu-option"><a href="">Menu option</a></li>
                 <hr>
-                <li class="menu-option" ><a href="">Menu 1</a></li>
-                <li class="menu-option"><a href="">Menu 2</a></li>
-                <li class="menu-option"><a href="">Menu 3</a></li>
+                <li class="menu-option" ><a href="">Menu option</a></li>
+                <li class="menu-option"><a href="">Menu option</a></li>
+                <li class="menu-option"><a href="">Menu option</a></li>
                 <hr>
-                <li class="menu-option"><a href="">Menu 4</a></li>
-                <li class="menu-option"><a href="">Menu 5</a></li>
+                <li class="menu-option"><a href="">MMenu option</a></li>
+                <li class="menu-option"><a href="">Menu option</a></li>
             </ul>
               
         </nav>
@@ -53,4 +35,5 @@
    </section>
 </div>
 </body>
+<script src="js/API.js"></script>
 </html>

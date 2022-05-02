@@ -7,7 +7,7 @@
 }
 .navegation
 {
-    background: #A77C91;
+    background: #220B03;
     width: 20%;
     max-width: 10%;
     min-width: 20%;
@@ -41,7 +41,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     float:right;
-    padding: 50px;
+    padding: 60px;
     border-radius: 0.5em;
 
     
@@ -62,11 +62,12 @@
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    color: #52222B;
-    line-height: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 40px;
     text-align: center;
     font-weight: bold;
+    text-shadow: 6px 1px 1px #B92D01;
 }
 
 #main
@@ -81,14 +82,14 @@
 
 .card
 {
-    background: #FAF3F8;
+    background: #FFF8F5;
     min-height: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.5em;
-    color: #52222B;
-    border: 0.1em solid #680F4F;
+    color: #220B03;
+    border: 0.1em solid #220B03;
    
 
 }
@@ -107,5 +108,5 @@
 }
 .menu-option a:hover
 {
-    color: #473048;
+    color: #E0A65D;
 }
