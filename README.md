@@ -1,6 +1,13 @@
 # KTT-First-Task
 Node JS
+Instructions
+- Clone the repository 
+- Open the containing folder 
+- Open the terminal and execute npm run dev
+- Open de browser and go to http://localhost:5000
+
 Used Technology
+- Node js 
 - Express js 
 - Morgan
 - nodemon
